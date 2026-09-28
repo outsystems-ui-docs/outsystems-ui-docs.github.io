@@ -1,5 +1,5 @@
-<!DOCTYPE html><html class="default" lang="en" data-base="./"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>outsystems-ui - v2.29.0</title><meta name="description" content="Documentation for outsystems-ui"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script defer src="assets/main.js"></script><script async src="assets/icons.js" id="tsd-icons-script"></script><script async src="assets/search.js" id="tsd-search-script"></script><script async src="assets/navigation.js" id="tsd-nav-script"></script><script async src="assets/hierarchy.js" id="tsd-hierarchy-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar">
-<div class="tsd-toolbar-contents container"><a href="index.html" class="title">outsystems-ui - v2.29.0</a>
+<!DOCTYPE html><html class="default" lang="en" data-base="./"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>outsystems-ui - v2.30.0</title><meta name="description" content="Documentation for outsystems-ui"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script defer src="assets/main.js"></script><script async src="assets/icons.js" id="tsd-icons-script"></script><script async src="assets/search.js" id="tsd-search-script"></script><script async src="assets/navigation.js" id="tsd-nav-script"></script><script async src="assets/hierarchy.js" id="tsd-hierarchy-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container"><a href="index.html" class="title">outsystems-ui - v2.30.0</a>
 <div id="tsd-toolbar-links"></div><button id="tsd-search-trigger" class="tsd-widget" aria-label="Search"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><use href="assets/icons.svg#icon-search"></use></svg></button><dialog id="tsd-search" aria-label="Search"><input role="combobox" id="tsd-search-input" aria-controls="tsd-search-results" aria-autocomplete="list" aria-expanded="true" autocapitalize="off" autocomplete="off" placeholder="Search the docs" maxLength="100"/>
 <ul role="listbox" id="tsd-search-results"></ul>
 <div id="tsd-search-status" aria-live="polite" aria-atomic="true">
@@ -7,8 +7,8 @@
 <div class="container container-main">
 <div class="col-content">
 <div class="tsd-page-title">
-<h1>outsystems-ui - v2.29.0</h1></div>
-<div class="tsd-panel tsd-typography"><h1 id="outsystems-ui-·-v2290" class="tsd-anchor-link">OutSystems UI · v2.29.0<a href="#outsystems-ui-·-v2290" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h1>
+<h1>outsystems-ui - v2.30.0</h1></div>
+<div class="tsd-panel tsd-typography"><h1 id="outsystems-ui-·-v2300" class="tsd-anchor-link">OutSystems UI · v2.30.0<a href="#outsystems-ui-·-v2300" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h1>
 <p><img src="https://img.shields.io/badge/License-BSD%203--Clause-blue.svg" alt="GitHub License"> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></p>
 <h2 id="about-the-component" class="tsd-anchor-link">About the component<a href="#about-the-component" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2>
 <p>Create modern experiences with fully customizable responsive Screen Templates and UI Patterns for Native Mobile and Reactive Web Apps.</p>
@@ -64,8 +64,15 @@ You can fork it then branch it and PR your proposals!</p>
 <li>Prettier - Code formatter</li>
 </ul>
 </li>
-<li><a href="https://nodejs.org/en">Node v12.0+</a></li>
+<li><a href="https://volta.sh/">Volta</a> — manages Node.js and npm versions for this project</li>
 </ul>
+<h4 id="nodejs-and-npm-volta" class="tsd-anchor-link">Node.js and npm (Volta)<a href="#nodejs-and-npm-volta" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h4>
+<p>This project pins Node.js and npm versions in <code>package.json</code>. Install <a href="https://volta.sh/">Volta</a> once and the correct versions are applied automatically when you work in this repository.</p>
+<p><strong>Install Volta:</strong> follow the official <a href="https://docs.volta.sh/guide/getting-started">Getting Started guide</a> (macOS, Windows, and Linux).</p>
+<p><strong>Verify Volta is active:</strong></p>
+<pre><code class="bash"><span class="hl-0">volta</span><span class="hl-1"> </span><span class="hl-2">--version</span><span class="hl-1">          </span><span class="hl-3"># Volta is installed</span><br/><span class="hl-0">volta</span><span class="hl-1"> </span><span class="hl-4">which</span><span class="hl-1"> </span><span class="hl-4">node</span><span class="hl-1">         </span><span class="hl-3"># pinned Node version for this project</span><br/><span class="hl-0">volta</span><span class="hl-1"> </span><span class="hl-4">which</span><span class="hl-1"> </span><span class="hl-4">npm</span><span class="hl-1">          </span><span class="hl-3"># pinned npm version for this project</span><br/><span class="hl-0">node</span><span class="hl-1"> </span><span class="hl-2">-v</span><br/><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">-v</span>
+</code><button type="button">Copy</button></pre>
+
 <h3 id="how-to-change-this-code" class="tsd-anchor-link">How to change this code?<a href="#how-to-change-this-code" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ol>
   <li>Do a Repository <strong>Fork</strong></li>
@@ -146,7 +153,7 @@ You can fork it then branch it and PR your proposals!</p>
 <div class="tsd-theme-toggle"><label class="settings-label" for="tsd-theme">Theme</label><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div>
 <details open class="tsd-accordion tsd-page-navigation"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="assets/icons.svg#icon-chevronDown"></use></svg>
 <h3>On This Page</h3></summary>
-<div class="tsd-accordion-details"><a href="#outsystems-ui-·-v2290"><span>Out<wbr/>Systems <wbr/>UI · v2.29.0</span></a>
+<div class="tsd-accordion-details"><a href="#outsystems-ui-·-v2300"><span>Out<wbr/>Systems <wbr/>UI · v2.30.0</span></a>
 <ul>
 <li><a href="#about-the-component"><span>About the component</span></a></li>
 <li>
@@ -159,6 +166,9 @@ You can fork it then branch it and PR your proposals!</p>
 <li>
 <ul>
 <li><a href="#what-tools-should-you-use"><span>What tools should you use?</span></a></li>
+<li>
+<ul>
+<li><a href="#nodejs-and-npm-volta"><span>Node.js and npm (<wbr/>Volta)</span></a></li></ul></li>
 <li><a href="#how-to-change-this-code"><span>How to change this code?</span></a></li>
 <li><a href="#how-to-do-a-pull-request"><span>How to do a <wbr/>Pull <wbr/>Request?</span></a></li></ul></li>
 <li><a href="#useful-links"><span>Useful <wbr/>Links</span></a></li>
@@ -166,7 +176,7 @@ You can fork it then branch it and PR your proposals!</p>
 <li><a href="#how-to-sign-up-for-the-announcement-list"><span>How to sign up for the announcement list</span></a></li>
 <li><a href="#keywords"><span>Keywords</span></a></li></ul></div></details></div>
 <div class="site-menu">
-<nav class="tsd-navigation"><a href="modules.html">outsystems-ui - v2.29.0</a>
+<nav class="tsd-navigation"><a href="modules.html">outsystems-ui - v2.30.0</a>
 <ul class="tsd-small-nested-navigation" id="tsd-nav-container">
 <li>Loading...</li></ul></nav></div></div></div><footer></footer>
 <div class="overlay"></div></body></html>

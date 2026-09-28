@@ -1,5 +1,5 @@
-<!DOCTYPE html><html class="default" lang="en" data-base="../"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>IFlatpickrMonth | outsystems-ui - v2.29.0</title><meta name="description" content="Documentation for outsystems-ui"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/icons.js" id="tsd-icons-script"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script><script async src="../assets/hierarchy.js" id="tsd-hierarchy-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar">
-<div class="tsd-toolbar-contents container"><a href="../index.html" class="title">outsystems-ui - v2.29.0</a>
+<!DOCTYPE html><html class="default" lang="en" data-base="../"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>IFlatpickrMonth | outsystems-ui - v2.30.0</title><meta name="description" content="Documentation for outsystems-ui"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/icons.js" id="tsd-icons-script"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script><script async src="../assets/hierarchy.js" id="tsd-hierarchy-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container"><a href="../index.html" class="title">outsystems-ui - v2.30.0</a>
 <div id="tsd-toolbar-links"></div><button id="tsd-search-trigger" class="tsd-widget" aria-label="Search"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-search"></use></svg></button><dialog id="tsd-search" aria-label="Search"><input role="combobox" id="tsd-search-input" aria-controls="tsd-search-results" aria-autocomplete="list" aria-expanded="true" autocapitalize="off" autocomplete="off" placeholder="Search the docs" maxLength="100"/>
 <ul role="listbox" id="tsd-search-results"></ul>
 <div id="tsd-search-status" aria-live="polite" aria-atomic="true">
@@ -18,7 +18,7 @@
 <div class="tsd-comment tsd-typography"><p>Defines the interface for MonthPicker Pattern Based on Flatpickr provider</p>
 </div></section>
 <div class="tsd-signature"><span class="tsd-signature-keyword">interface</span> <span class="tsd-kind-interface">IFlatpickrMonth</span> <span class="tsd-signature-symbol">{</span><br/>    <a class="tsd-kind-call-signature" href="#build-1">build</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#dispose-1">dispose</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#isopen">isOpen</a><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#close-1">close</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#isbuilt">isBuilt</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#selfelement">selfElement</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#uniqueid">uniqueId</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#widgetid">widgetId</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#changeproperty-1">changeProperty</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">propertyName</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">,</span> <span class="tsd-kind-parameter">propertyValue</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#registercallback-1">registerCallback</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventName</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">,</span> <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">:</span> <a href="../types/OSFramework.OSUI.GlobalCallbacks.OSGeneric.html" class="tsd-signature-type tsd-kind-type-alias">OSGeneric</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#provider">provider</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">flatpickr</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#providerinfo">providerInfo</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ProviderInfo</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#updateproviderevents-1">updateProviderEvents</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">providerInfo</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ProviderInfo</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#equalstoid-1">equalsToID</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">id</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#clear-1">clear</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#open-1">open</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#setlanguage-1">setLanguage</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">value</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#setproviderconfigs-1">setProviderConfigs</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">providerConfigs</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#setproviderevent-1">setProviderEvent</a><span class="tsd-signature-symbol">(</span><br/>        <span class="tsd-kind-parameter">eventName</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">,</span><br/>        <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">:</span> <a href="../types/OSFramework.OSUI.GlobalCallbacks.Generic.html" class="tsd-signature-type tsd-kind-type-alias">Generic</a><span class="tsd-signature-symbol">,</span><br/>        <span class="tsd-kind-parameter">uniqueId</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">,</span><br/>    <span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#unsetproviderevent-1">unsetProviderEvent</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventId</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#updateinitialmonth-1">updateInitialMonth</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">monthYear</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">MonthYear</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/><span class="tsd-signature-symbol">}</span></div>
-<section class="tsd-panel tsd-hierarchy" data-refl="14010">
+<section class="tsd-panel tsd-hierarchy" data-refl="14516">
 <h4>Hierarchy (<a href="../hierarchy.html#Providers.OSUI.MonthPicker.Flatpickr.IFlatpickrMonth">View Summary</a>)</h4>
 <ul class="tsd-hierarchy">
 <li class="tsd-hierarchy-item"><a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html" class="tsd-signature-type tsd-kind-interface">IMonthPicker</a></li>
@@ -30,7 +30,7 @@
 <ul class="tsd-hierarchy">
 <li><a href="../classes/Providers.OSUI.MonthPicker.Flatpickr.OSUIFlatpickrMonth.html" class="tsd-signature-type tsd-kind-class">OSUIFlatpickrMonth</a></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/Providers/OSUI/Monthpicker/Flatpickr/IFlatpickrMonth.ts#L6">Providers/OSUI/Monthpicker/Flatpickr/IFlatpickrMonth.ts:6</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/Providers/OSUI/Monthpicker/Flatpickr/IFlatpickrMonth.ts#L6">Providers/OSUI/Monthpicker/Flatpickr/IFlatpickrMonth.ts:6</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-accordion" open><summary class="tsd-accordion-summary tsd-index-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
@@ -71,7 +71,7 @@
 <div class="tsd-signature"><span class="tsd-kind-property">isOpen</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#isopen">isOpen</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IOpenable.ts#L10">OSFramework/OSUI/Interface/IOpenable.ts:10</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IOpenable.ts#L10">OSFramework/OSUI/Interface/IOpenable.ts:10</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="isbuilt"><span>is<wbr/>Built</span><a href="#isbuilt" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">isBuilt</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
@@ -83,7 +83,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#isbuilt">isBuilt</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L19">OSFramework/OSUI/Interface/IPattern.ts:19</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L19">OSFramework/OSUI/Interface/IPattern.ts:19</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="selfelement"><span>self<wbr/>Element</span><a href="#selfelement" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">selfElement</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span></div>
@@ -95,7 +95,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#selfelement">selfElement</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L27">OSFramework/OSUI/Interface/IPattern.ts:27</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L27">OSFramework/OSUI/Interface/IPattern.ts:27</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="uniqueid"><span>unique<wbr/>Id</span><a href="#uniqueid" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">uniqueId</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
@@ -107,7 +107,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#uniqueid">uniqueId</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L35">OSFramework/OSUI/Interface/IPattern.ts:35</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L35">OSFramework/OSUI/Interface/IPattern.ts:35</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="widgetid"><span>widget<wbr/>Id</span><a href="#widgetid" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">widgetId</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
@@ -119,7 +119,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#widgetid">widgetId</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L43">OSFramework/OSUI/Interface/IPattern.ts:43</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L43">OSFramework/OSUI/Interface/IPattern.ts:43</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="provider"><span>provider</span><a href="#provider" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">provider</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">flatpickr</span></div>
@@ -131,7 +131,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IProviderPattern.html">IProviderPattern</a>.<a href="OSFramework.OSUI.Interface.IProviderPattern.html#provider">provider</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IProviderPattern.ts#L18">OSFramework/OSUI/Interface/IProviderPattern.ts:18</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IProviderPattern.ts#L18">OSFramework/OSUI/Interface/IProviderPattern.ts:18</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="providerinfo"><span>provider<wbr/>Info</span><a href="#providerinfo" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">providerInfo</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ProviderInfo</span></div>
@@ -143,7 +143,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IProviderPattern.html">IProviderPattern</a>.<a href="OSFramework.OSUI.Interface.IProviderPattern.html#providerinfo">providerInfo</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IProviderPattern.ts#L26">OSFramework/OSUI/Interface/IProviderPattern.ts:26</a></li></ul></aside></section></section></details>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IProviderPattern.ts#L26">OSFramework/OSUI/Interface/IProviderPattern.ts:26</a></li></ul></aside></section></section></details>
 <details class="tsd-panel-group tsd-member-group tsd-accordion" open><summary class="tsd-accordion-summary" data-key="section-Methods"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
 <h2 class="tsd-anchor-link" id="methods-1">Methods<a href="#methods-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h2></summary>
 <section>
@@ -162,7 +162,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#build">build</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IBuilder.ts#L15">OSFramework/OSUI/Interface/IBuilder.ts:15</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IBuilder.ts#L15">OSFramework/OSUI/Interface/IBuilder.ts:15</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="dispose"><span>dispose</span><a href="#dispose" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -178,7 +178,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#dispose">dispose</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IDisposable.ts#L15">OSFramework/OSUI/Interface/IDisposable.ts:15</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IDisposable.ts#L15">OSFramework/OSUI/Interface/IDisposable.ts:15</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="close"><span>close</span><a href="#close" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -194,7 +194,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#close">close</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IOpenable.ts#L16">OSFramework/OSUI/Interface/IOpenable.ts:16</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IOpenable.ts#L16">OSFramework/OSUI/Interface/IOpenable.ts:16</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="changeproperty"><span>change<wbr/>Property</span><a href="#changeproperty" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -215,7 +215,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#changeproperty">changeProperty</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L52">OSFramework/OSUI/Interface/IPattern.ts:52</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L52">OSFramework/OSUI/Interface/IPattern.ts:52</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="registercallback"><span>register<wbr/>Callback</span><a href="#registercallback" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -236,7 +236,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#registercallback">registerCallback</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L61">OSFramework/OSUI/Interface/IPattern.ts:61</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L61">OSFramework/OSUI/Interface/IPattern.ts:61</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="updateproviderevents"><span>update<wbr/>Provider<wbr/>Events</span><a href="#updateproviderevents" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -256,7 +256,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IProviderPattern.html">IProviderPattern</a>.<a href="OSFramework.OSUI.Interface.IProviderPattern.html#updateproviderevents">updateProviderEvents</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/IProviderPattern.ts#L42">OSFramework/OSUI/Interface/IProviderPattern.ts:42</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IProviderPattern.ts#L42">OSFramework/OSUI/Interface/IProviderPattern.ts:42</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="equalstoid"><span>equals<wbr/>To<wbr/>ID</span><a href="#equalstoid" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -277,7 +277,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#equalstoid">equalsToID</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Interface/ISearchById.ts#L17">OSFramework/OSUI/Interface/ISearchById.ts:17</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/ISearchById.ts#L17">OSFramework/OSUI/Interface/ISearchById.ts:17</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="clear"><span>clear</span><a href="#clear" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -287,7 +287,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#clear">clear</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L11">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:11</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L11">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:11</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="open"><span>open</span><a href="#open" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -303,7 +303,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#open">open</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L12">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:12</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L12">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:12</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="setlanguage"><span>set<wbr/>Language</span><a href="#setlanguage" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -317,7 +317,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#setlanguage">setLanguage</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L13">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:13</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L13">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:13</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="setproviderconfigs"><span>set<wbr/>Provider<wbr/>Configs</span><a href="#setproviderconfigs" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -337,7 +337,7 @@
 </div></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#setproviderconfigs">setProviderConfigs</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L14">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:14</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L14">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:14</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="setproviderevent"><span>set<wbr/>Provider<wbr/>Event</span><a href="#setproviderevent" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -353,7 +353,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#setproviderevent">setProviderEvent</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L15">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:15</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L15">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:15</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="unsetproviderevent"><span>unset<wbr/>Provider<wbr/>Event</span><a href="#unsetproviderevent" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -367,7 +367,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#unsetproviderevent">unsetProviderEvent</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L16">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:16</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L16">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:16</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="updateinitialmonth"><span>update<wbr/>Initial<wbr/>Month</span><a href="#updateinitialmonth" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -381,7 +381,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html">IMonthPicker</a>.<a href="OSFramework.OSUI.Patterns.MonthPicker.IMonthPicker.html#updateinitialmonth">updateInitialMonth</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/13553d154f8c85311c8fd674a68e755c239ee160/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L17">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:17</a></li></ul></aside></div></li></ul></section></section></details></div>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts#L17">OSFramework/OSUI/Pattern/MonthPicker/IMonthPicker.ts:17</a></li></ul></aside></div></li></ul></section></section></details></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -402,7 +402,7 @@
 <details open class="tsd-accordion tsd-page-navigation-section"><summary class="tsd-accordion-summary" data-key="section-Methods"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>Methods</summary>
 <div><a href="#build" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>build</span></a><a href="#dispose" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>dispose</span></a><a href="#close" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>close</span></a><a href="#changeproperty" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>change<wbr/>Property</span></a><a href="#registercallback" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>register<wbr/>Callback</span></a><a href="#updateproviderevents" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>update<wbr/>Provider<wbr/>Events</span></a><a href="#equalstoid" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>equals<wbr/>To<wbr/>ID</span></a><a href="#clear" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>clear</span></a><a href="#open" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>open</span></a><a href="#setlanguage" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>set<wbr/>Language</span></a><a href="#setproviderconfigs" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>set<wbr/>Provider<wbr/>Configs</span></a><a href="#setproviderevent" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>set<wbr/>Provider<wbr/>Event</span></a><a href="#unsetproviderevent" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>unset<wbr/>Provider<wbr/>Event</span></a><a href="#updateinitialmonth" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>update<wbr/>Initial<wbr/>Month</span></a></div></details></div></details></div>
 <div class="site-menu">
-<nav class="tsd-navigation"><a href="../modules.html">outsystems-ui - v2.29.0</a>
+<nav class="tsd-navigation"><a href="../modules.html">outsystems-ui - v2.30.0</a>
 <ul class="tsd-small-nested-navigation" id="tsd-nav-container">
 <li>Loading...</li></ul></nav></div></div></div><footer></footer>
 <div class="overlay"></div></body></html>
