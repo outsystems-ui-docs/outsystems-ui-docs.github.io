@@ -1,5 +1,5 @@
-<!DOCTYPE html><html class="default" lang="en" data-base="../"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>ITooltip | outsystems-ui - v2.30.0</title><meta name="description" content="Documentation for outsystems-ui"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/icons.js" id="tsd-icons-script"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script><script async src="../assets/hierarchy.js" id="tsd-hierarchy-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar">
-<div class="tsd-toolbar-contents container"><a href="../index.html" class="title">outsystems-ui - v2.30.0</a>
+<!DOCTYPE html><html class="default" lang="en" data-base="../"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>ITooltip | OutSystems UI - v3.0.1</title><link rel="icon" href="../assets/favicon.ico"/><meta name="description" content="Documentation for OutSystems UI"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><link rel="stylesheet" href="../assets/custom.css"/><script defer src="../assets/main.js"></script><script async src="../assets/icons.js" id="tsd-icons-script"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script><script async src="../assets/hierarchy.js" id="tsd-hierarchy-script"></script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:wght@400;500&display=swap"/></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container"><a href="../index.html" class="title">OutSystems UI - v3.0.1</a>
 <div id="tsd-toolbar-links"></div><button id="tsd-search-trigger" class="tsd-widget" aria-label="Search"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-search"></use></svg></button><dialog id="tsd-search" aria-label="Search"><input role="combobox" id="tsd-search-input" aria-controls="tsd-search-results" aria-autocomplete="list" aria-expanded="true" autocapitalize="off" autocomplete="off" placeholder="Search the docs" maxLength="100"/>
 <ul role="listbox" id="tsd-search-results"></ul>
 <div id="tsd-search-status" aria-live="polite" aria-atomic="true">
@@ -18,7 +18,7 @@
 <div class="tsd-comment tsd-typography"><p>Defines the interface for OutSystemsUI Tooltip Pattern</p>
 </div></section>
 <div class="tsd-signature"><span class="tsd-signature-keyword">interface</span> <span class="tsd-kind-interface">ITooltip</span> <span class="tsd-signature-symbol">{</span><br/>    <a class="tsd-kind-call-signature" href="#build-1">build</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#dispose-1">dispose</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#isopen">isOpen</a><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#close-1">close</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#open-1">open</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">isOpenedByApi</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#isbuilt">isBuilt</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#selfelement">selfElement</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#uniqueid">uniqueId</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#widgetid">widgetId</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#changeproperty-1">changeProperty</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">propertyName</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">,</span> <span class="tsd-kind-parameter">propertyValue</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#registercallback-1">registerCallback</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventName</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">,</span> <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">:</span> <a href="../types/OSFramework.OSUI.GlobalCallbacks.OSGeneric.html" class="tsd-signature-type tsd-kind-type-alias">OSGeneric</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#equalstoid-1">equalsToID</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">id</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">;</span><br/>    <span class="tsd-signature-keyword">get</span> <a class="tsd-kind-get-signature" href="#isopenisopen">IsOpen</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">;</span><br/><span class="tsd-signature-symbol">}</span></div>
-<section class="tsd-panel tsd-hierarchy" data-refl="9108">
+<section class="tsd-panel tsd-hierarchy" data-refl="9068">
 <h4>Hierarchy (<a href="../hierarchy.html#OSFramework.OSUI.Patterns.Tooltip.ITooltip">View Summary</a>)</h4>
 <ul class="tsd-hierarchy">
 <li class="tsd-hierarchy-item"><a href="OSFramework.OSUI.Interface.IPattern.html" class="tsd-signature-type tsd-kind-interface">IPattern</a></li>
@@ -30,7 +30,7 @@
 <ul class="tsd-hierarchy">
 <li><a href="../modules/OSFramework.html" class="tsd-signature-type tsd-kind-namespace">OSFramework</a><span class="tsd-signature-symbol">.</span><a href="../modules/OSFramework.OSUI.html" class="tsd-signature-type tsd-kind-namespace">OSUI</a><span class="tsd-signature-symbol">.</span><a href="../modules/OSFramework.OSUI.Patterns.html" class="tsd-signature-type tsd-kind-namespace">Patterns</a><span class="tsd-signature-symbol">.</span><a href="../modules/OSFramework.OSUI.Patterns.Tooltip.html" class="tsd-signature-type tsd-kind-namespace">Tooltip</a><span class="tsd-signature-symbol">.</span><a href="../classes/OSFramework.OSUI.Patterns.Tooltip.Tooltip.html" class="tsd-signature-type tsd-kind-class">Tooltip</a></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Pattern/Tooltip/ITooltip.ts#L6">OSFramework/OSUI/Pattern/Tooltip/ITooltip.ts:6</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Pattern/Tooltip/ITooltip.ts#L6">OSFramework/OSUI/Pattern/Tooltip/ITooltip.ts:6</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-accordion" open><summary class="tsd-accordion-summary tsd-index-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
@@ -66,55 +66,39 @@
 <div class="tsd-signature"><span class="tsd-kind-property">isOpen</span><span class="tsd-signature-symbol">?:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IOpenable.html">IOpenable</a>.<a href="OSFramework.OSUI.Interface.IOpenable.html#isopen">isOpen</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IOpenable.ts#L10">OSFramework/OSUI/Interface/IOpenable.ts:10</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IOpenable.ts#L7">OSFramework/OSUI/Interface/IOpenable.ts:7</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="isbuilt"><span>is<wbr/>Built</span><a href="#isbuilt" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">isBuilt</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 <div class="tsd-comment tsd-typography"><p>Indicates if the instance of the pattern is built.</p>
-</div>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof">Memberof<a href="#memberof" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>OSFramework.Interface.IPattern</p>
-</div></div><aside class="tsd-sources">
+</div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IPattern.html">IPattern</a>.<a href="OSFramework.OSUI.Interface.IPattern.html#isbuilt">isBuilt</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L19">OSFramework/OSUI/Interface/IPattern.ts:19</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L10">OSFramework/OSUI/Interface/IPattern.ts:10</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="selfelement"><span>self<wbr/>Element</span><a href="#selfelement" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">selfElement</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLElement</span></div>
 <div class="tsd-comment tsd-typography"><p>Pattern HTML element</p>
-</div>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-1">Memberof<a href="#memberof-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>OSFramework.Interface.IPattern</p>
-</div></div><aside class="tsd-sources">
+</div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IPattern.html">IPattern</a>.<a href="OSFramework.OSUI.Interface.IPattern.html#selfelement">selfElement</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L27">OSFramework/OSUI/Interface/IPattern.ts:27</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L15">OSFramework/OSUI/Interface/IPattern.ts:15</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="uniqueid"><span>unique<wbr/>Id</span><a href="#uniqueid" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">uniqueId</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>Internal Id of the instance of the pattern.</p>
-</div>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-2">Memberof<a href="#memberof-2" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>OSFramework.Interface.IPattern</p>
-</div></div><aside class="tsd-sources">
+</div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IPattern.html">IPattern</a>.<a href="OSFramework.OSUI.Interface.IPattern.html#uniqueid">uniqueId</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L35">OSFramework/OSUI/Interface/IPattern.ts:35</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L20">OSFramework/OSUI/Interface/IPattern.ts:20</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="widgetid"><span>widget<wbr/>Id</span><a href="#widgetid" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">widgetId</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>External Id of the instance of the pattern</p>
-</div>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-3">Memberof<a href="#memberof-3" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>OSFramework.Interface.IPattern</p>
-</div></div><aside class="tsd-sources">
+</div><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IPattern.html">IPattern</a>.<a href="OSFramework.OSUI.Interface.IPattern.html#widgetid">widgetId</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L43">OSFramework/OSUI/Interface/IPattern.ts:43</a></li></ul></aside></section></section></details>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L25">OSFramework/OSUI/Interface/IPattern.ts:25</a></li></ul></aside></section></section></details>
 <details class="tsd-panel-group tsd-member-group tsd-accordion" open><summary class="tsd-accordion-summary" data-key="section-Accessors"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
 <h2 class="tsd-anchor-link" id="accessors-1">Accessors<a href="#accessors-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h2></summary>
 <section>
@@ -126,13 +110,9 @@
 <div class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Getter that allows to obtain the IsOpen status.</p>
 </div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-4">Memberof<a href="#memberof-4" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>ITooltip</p>
-</div></div><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Pattern/Tooltip/ITooltip.ts#L14">OSFramework/OSUI/Pattern/Tooltip/ITooltip.ts:14</a></li></ul></aside></div></li></ul></section></section></details>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Pattern/Tooltip/ITooltip.ts#L12">OSFramework/OSUI/Pattern/Tooltip/ITooltip.ts:12</a></li></ul></aside></div></li></ul></section></section></details>
 <details class="tsd-panel-group tsd-member-group tsd-accordion" open><summary class="tsd-accordion-summary" data-key="section-Methods"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
 <h2 class="tsd-anchor-link" id="methods-1">Methods<a href="#methods-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h2></summary>
 <section>
@@ -144,14 +124,10 @@
 <div class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Build object, instantiating dependencies, and manipulating DOM when necessary</p>
 </div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-5">Memberof<a href="#memberof-5" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>OSFramework.Interface.IBuilder</p>
-</div></div><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IPattern.html">IPattern</a>.<a href="OSFramework.OSUI.Interface.IPattern.html#build">build</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IBuilder.ts#L15">OSFramework/OSUI/Interface/IBuilder.ts:15</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IBuilder.ts#L10">OSFramework/OSUI/Interface/IBuilder.ts:10</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="dispose"><span>dispose</span><a href="#dispose" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -160,14 +136,10 @@
 <div class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Dispose object and free up its used resources</p>
 </div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-6">Memberof<a href="#memberof-6" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>OSFramework.Interface.IDisposable</p>
-</div></div><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IPattern.html">IPattern</a>.<a href="OSFramework.OSUI.Interface.IPattern.html#dispose">dispose</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IDisposable.ts#L15">OSFramework/OSUI/Interface/IDisposable.ts:15</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IDisposable.ts#L10">OSFramework/OSUI/Interface/IDisposable.ts:10</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="close"><span>close</span><a href="#close" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -176,14 +148,10 @@
 <div class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Method signature to close the pattern.</p>
 </div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-7">Memberof<a href="#memberof-7" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>OSFramework.Interface.IOpenable</p>
-</div></div><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IOpenable.html">IOpenable</a>.<a href="OSFramework.OSUI.Interface.IOpenable.html#close">close</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IOpenable.ts#L16">OSFramework/OSUI/Interface/IOpenable.ts:16</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IOpenable.ts#L11">OSFramework/OSUI/Interface/IOpenable.ts:11</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="open"><span>open</span><a href="#open" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -195,15 +163,13 @@
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
-<li><span><code class="tsd-tag">Optional</code><span class="tsd-kind-parameter">isOpenedByApi</span>: <span class="tsd-signature-type">boolean</span></span></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-8">Memberof<a href="#memberof-8" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>IOpenable</p>
-</div></div><aside class="tsd-sources">
+<li><span><code class="tsd-tag">Optional</code><span class="tsd-kind-parameter">isOpenedByApi</span>: <span class="tsd-signature-type">boolean</span></span>
+<div class="tsd-comment tsd-typography"><p>True when the open was requested through the API, not by user interaction</p>
+</div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IOpenable.html">IOpenable</a>.<a href="OSFramework.OSUI.Interface.IOpenable.html#open">open</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IOpenable.ts#L24">OSFramework/OSUI/Interface/IOpenable.ts:24</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IOpenable.ts#L18">OSFramework/OSUI/Interface/IOpenable.ts:18</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="changeproperty"><span>change<wbr/>Property</span><a href="#changeproperty" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -215,16 +181,16 @@
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
-<li><span><span class="tsd-kind-parameter">propertyName</span>: <span class="tsd-signature-type">string</span></span></li>
-<li><span><span class="tsd-kind-parameter">propertyValue</span>: <span class="tsd-signature-type">unknown</span></span></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-9">Memberof<a href="#memberof-9" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>OSFramework.Interface.IPattern</p>
-</div></div><aside class="tsd-sources">
+<li><span><span class="tsd-kind-parameter">propertyName</span>: <span class="tsd-signature-type">string</span></span>
+<div class="tsd-comment tsd-typography"><p>Name of the config property to change</p>
+</div></li>
+<li><span><span class="tsd-kind-parameter">propertyValue</span>: <span class="tsd-signature-type">unknown</span></span>
+<div class="tsd-comment tsd-typography"><p>New value of the property</p>
+</div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IPattern.html">IPattern</a>.<a href="OSFramework.OSUI.Interface.IPattern.html#changeproperty">changeProperty</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L52">OSFramework/OSUI/Interface/IPattern.ts:52</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L33">OSFramework/OSUI/Interface/IPattern.ts:33</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="registercallback"><span>register<wbr/>Callback</span><a href="#registercallback" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -236,16 +202,16 @@
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
-<li><span><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-type">string</span></span></li>
-<li><span><span class="tsd-kind-parameter">callback</span>: <a href="../types/OSFramework.OSUI.GlobalCallbacks.OSGeneric.html" class="tsd-signature-type tsd-kind-type-alias">OSGeneric</a></span></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-10">Memberof<a href="#memberof-10" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>OSFramework.Interface.IPattern</p>
-</div></div><aside class="tsd-sources">
+<li><span><span class="tsd-kind-parameter">eventName</span>: <span class="tsd-signature-type">string</span></span>
+<div class="tsd-comment tsd-typography"><p>Name of the event the callback is registered for</p>
+</div></li>
+<li><span><span class="tsd-kind-parameter">callback</span>: <a href="../types/OSFramework.OSUI.GlobalCallbacks.OSGeneric.html" class="tsd-signature-type tsd-kind-type-alias">OSGeneric</a></span>
+<div class="tsd-comment tsd-typography"><p>Function invoked when the event fires</p>
+</div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IPattern.html">IPattern</a>.<a href="OSFramework.OSUI.Interface.IPattern.html#registercallback">registerCallback</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L61">OSFramework/OSUI/Interface/IPattern.ts:61</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/IPattern.ts#L41">OSFramework/OSUI/Interface/IPattern.ts:41</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited">
 <h3 class="tsd-anchor-link" id="equalstoid"><span>equals<wbr/>To<wbr/>ID</span><a href="#equalstoid" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -257,16 +223,13 @@
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
-<li><span><span class="tsd-kind-parameter">id</span>: <span class="tsd-signature-type">string</span></span></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><p>{boolean}</p>
-
-<div class="tsd-comment tsd-typography">
-<div class="tsd-tag-memberof">
-<h4 class="tsd-anchor-link" id="memberof-11">Memberof<a href="#memberof-11" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>OSFramework.Interface.ISearchById</p>
-</div></div><aside class="tsd-sources">
+<li><span><span class="tsd-kind-parameter">id</span>: <span class="tsd-signature-type">string</span></span>
+<div class="tsd-comment tsd-typography"><p>Id compared against the unique id and the widget id of the object</p>
+</div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <p>Inherited from <a href="OSFramework.OSUI.Interface.IPattern.html">IPattern</a>.<a href="OSFramework.OSUI.Interface.IPattern.html#equalstoid">equalsToID</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/5f525d74a5e7493ecf45727277d08422a997308a/src/scripts/OSFramework/OSUI/Interface/ISearchById.ts#L17">OSFramework/OSUI/Interface/ISearchById.ts:17</a></li></ul></aside></div></li></ul></section></section></details></div>
+<li>Defined in <a href="https://github.com/OutSystems/outsystems-ui/blob/49cbf8c5e6c44f96d744a93895aa8d42dc08a642/src/scripts/OSFramework/OSUI/Interface/ISearchById.ts#L12">OSFramework/OSUI/Interface/ISearchById.ts:12</a></li></ul></aside></div></li></ul></section></section></details></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -289,7 +252,7 @@
 <details open class="tsd-accordion tsd-page-navigation-section"><summary class="tsd-accordion-summary" data-key="section-Methods"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>Methods</summary>
 <div><a href="#build" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>build</span></a><a href="#dispose" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>dispose</span></a><a href="#close" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>close</span></a><a href="#open" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>open</span></a><a href="#changeproperty" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>change<wbr/>Property</span></a><a href="#registercallback" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>register<wbr/>Callback</span></a><a href="#equalstoid" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>equals<wbr/>To<wbr/>ID</span></a></div></details></div></details></div>
 <div class="site-menu">
-<nav class="tsd-navigation"><a href="../modules.html">outsystems-ui - v2.30.0</a>
+<nav class="tsd-navigation"><a href="../modules.html">OutSystems UI - v3.0.1</a>
 <ul class="tsd-small-nested-navigation" id="tsd-nav-container">
 <li>Loading...</li></ul></nav></div></div></div><footer></footer>
 <div class="overlay"></div></body></html>
