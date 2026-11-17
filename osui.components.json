@@ -138,7 +138,7 @@
 			"cssApi": [
 				"--osui-accordion-border-radius"
 			],
-			"markup": "<div id=\"\" data-block=\"osui\"><div name=\"\" class=\"osui-accordion-item\"><div class=\"osui-accordion-item__title\" id=\"-title\"><div class=\"osui-accordion-item__icon\"></div><div class=\"osui-accordion-item__icon placeholder-empty\"></div><div class=\"osui-accordion-item__title__placeholder\"><span></span></div></div><div class=\"osui-accordion-item__content\"><div id=\"-content\"></div></div></div></div>",
+			"markup": "<div class=\"osui-accordion\"><div id=\"\" data-block=\"osui\"><div name=\"\" class=\"osui-accordion-item\"><div class=\"osui-accordion-item__title\" id=\"-title\"><div class=\"osui-accordion-item__icon\"></div><div class=\"osui-accordion-item__icon placeholder-empty\"></div><span></span></div><div class=\"osui-accordion-item__content\"><div id=\"-content\"></div></div></div></div></div>",
 			"usage": {
 				"configs": {
 					"MultipleItems": false,
@@ -381,7 +381,7 @@
 				"--osui-accordion-item-title-padding-inline",
 				"--osui-accordion-item-plus-minus-size"
 			],
-			"markup": "<div id=\"\" data-block=\"osui\"><div name=\"\" class=\"osui-accordion-item\"><div class=\"osui-accordion-item__title\" id=\"-title\"><div class=\"osui-accordion-item__icon\"></div><div class=\"osui-accordion-item__icon placeholder-empty\"></div><div class=\"osui-accordion-item__title__placeholder\"><span></span></div></div><div class=\"osui-accordion-item__content\"><div id=\"-content\"></div></div></div></div>",
+			"markup": "<div class=\"osui-accordion\"><div id=\"\" data-block=\"osui\"><div name=\"\" class=\"osui-accordion-item\"><div class=\"osui-accordion-item__title\" id=\"-title\"><div class=\"osui-accordion-item__icon\"></div><div class=\"osui-accordion-item__icon placeholder-empty\"></div><span></span></div><div class=\"osui-accordion-item__content\"><div id=\"-content\"></div></div></div></div></div>",
 			"usage": {
 				"configs": {
 					"Icon": "Caret",
@@ -722,9 +722,9 @@
 				"--osui-bottom-sheet-handler-width",
 				"--osui-bottom-sheet-draggable-area",
 				"--osui-bottom-sheet-transition-function",
-				"--osui-focus-gap-inner"
+				"--osui-focus-inner-shadow-gap"
 			],
-			"markup": "<div class=\"osui-bottom-sheet\" aria-hidden=\"\" tabindex=\"-1\"><div class=\"osui-bottom-sheet__header\"><div class=\"osui-bottom-sheet__header__top-bar\"><strong></strong></div></div><div class=\"osui-bottom-sheet__content\"></div></div><div class=\"osui-bottom-sheet-overlay\"></div>",
+			"markup": "<div><button class=\"btn btn-primary\" data-open type=\"button\">Open bottom sheet</button><div class=\"osui-bottom-sheet\" aria-hidden=\"true\" tabindex=\"-1\"><div class=\"osui-bottom-sheet__header\"><div class=\"osui-bottom-sheet__header__top-bar\"><strong>Sheet title</strong></div></div><div class=\"osui-bottom-sheet__content\"><p>Bottom-sheet content slides up from the bottom edge.</p><button class=\"btn\" data-close type=\"button\">Close</button></div></div></div>",
 			"usage": {
 				"configs": {
 					"Shape": "soft",
@@ -883,7 +883,7 @@
 				"Spinner": "osui-btn-loading__spinner-animation"
 			},
 			"cssApi": [],
-			"markup": "<div class=\"osui-btn-loading\"><button class=\"btn btn-primary\" type=\"button\"><span class=\"osui-btn-loading__spinner-animation\"></span></button></div>",
+			"markup": "<div class=\"osui-btn-loading\"><button class=\"btn btn-primary\" type=\"button\"><span class=\"osui-btn-loading__spinner-animation\"></span> Save changes </button></div>",
 			"usage": {
 				"configs": {
 					"IsLoading": false,
@@ -1252,9 +1252,9 @@
 				"--osui-carousel-pagination-active-color",
 				"--osui-carousel-track-width",
 				"--osui-carousel-pagination-margin",
-				"--osui-focus-gap"
+				"--osui-focus-shadow-gap"
 			],
-			"markup": "<div class=\"carousel-demo\"><div class=\"osui-carousel\"><div class=\"osui-carousel__track\"><div class=\"osui-carousel__content\"></div></div></div></div>",
+			"markup": "<div class=\"osui-carousel\" ><div class=\"osui-carousel__track\"><div class=\"osui-carousel__content\"></div></div></div>",
 			"usage": {
 				"configs": {
 					"AutoPlay": false,
@@ -1704,7 +1704,7 @@
 				"--osui-datepicker-input-border-radius",
 				"--osui-input-border-radius"
 			],
-			"markup": "<div><div class=\"osui-datepicker\" data-uniqueid=\"\"><input id=\"-input\" class=\"form-control\" type=\"text\" placeholder=\"\" /></div><!-- a11y keyboard-instructions container; the provider finds it via TagSelector(selfElement.parentElement, '.osui-datepicker-a11y') --><div class=\"osui-datepicker-a11y\"></div></div>",
+			"markup": "<div class=\"osui-datepicker\" data-uniqueid=\"\"><input id=\"-input\" class=\"form-control\" type=\"text\" placeholder=\"\" /></div><!-- a11y keyboard-instructions container; the provider finds it via TagSelector(selfElement.parentElement, '.osui-datepicker-a11y') --><div class=\"osui-datepicker-a11y\"></div>",
 			"usage": {
 				"configs": {
 					"AllowInput": false,
@@ -2100,7 +2100,6 @@
 				"Balloon": "osui-dropdown-serverside__balloon",
 				"BalloonContainer": "osui-dropdown-serverside__balloon-container",
 				"BalloonContent": "osui-dropdown-serverside__balloon-content",
-				"BalloonFocusVisible": "osui-dropdown-serverside--focus-visible",
 				"BalloonFooter": "osui-dropdown-serverside__balloon-footer",
 				"BalloonHasNotSearchInput": "osui-dropdown-serverside__balloon--has-not-search",
 				"BalloonSearch": "osui-dropdown-serverside__balloon-search",
@@ -2115,7 +2114,6 @@
 				"SearchInputIsFocused": "osui-dropdown-serverside__search-input--is-focused",
 				"SelectText": "osui-dropdown-serverside__text",
 				"SelectValuesWrapper": "osui-dropdown-serverside__selected-values-wrapper",
-				"FocusVisible": "osui-dropdown--focus-visible",
 				"OptionItemIcon": "osui-dropdown-option-icon",
 				"OptionItemImage": "osui-dropdown-option-image"
 			},
@@ -2491,7 +2489,7 @@
 				"PatternIsFlipped": "osui-flip-content--flipped"
 			},
 			"cssApi": [],
-			"markup": "<div><div class=\"osui-flip-content\"><div class=\"osui-flip-content__container\"><div class=\"osui-flip-content__container__front\">Front — click to flip</div><div class=\"osui-flip-content__container__back\">Back side</div></div></div></div>",
+			"markup": "<div class=\"osui-flip-content\"><div class=\"osui-flip-content__container\"><div class=\"osui-flip-content__container__front\">Front — click to flip</div><div class=\"osui-flip-content__container__back\">Back side</div></div></div>",
 			"usage": {
 				"configs": {
 					"FlipSelf": false,
@@ -2637,7 +2635,7 @@
 			"events": [],
 			"cssClasses": {},
 			"cssApi": [],
-			"markup": "<div data-container=\"\"><div class=\"card card-sectioned flex-direction-column\"><div class=\"card-image\"><img data-image=\"\" src=\"\" alt=\"\"></div><div class=\"card-sectioned-top flex-direction-column\"><div class=\"card-title\"></div><div class=\"card-content\"> · </div></div></div></div>",
+			"markup": "<div class=\"osui-gallery\"><div class=\"list\"></div></div>",
 			"usage": {
 				"configs": {
 					"ItemsGap": "base",
@@ -3120,7 +3118,7 @@
 				"--osui-monthpicker-input-border-radius",
 				"--osui-input-border-radius"
 			],
-			"markup": "<div><div class=\"osui-monthpicker\"><label for=\"-input\">Pick a month</label><input id=\"-input\" class=\"form-control\" type=\"text\" placeholder=\"Select a month\" /></div><div class=\"osui-monthpicker-a11y\"></div></div>",
+			"markup": "<div class=\"osui-monthpicker\"><label for=\"-input\">Pick a month</label><input id=\"-input\" class=\"form-control\" type=\"text\" placeholder=\"Select a month\" /></div><div class=\"osui-monthpicker-a11y\"></div>",
 			"usage": {
 				"configs": {
 					"AllowInput": false,
@@ -3569,10 +3567,9 @@
 				"--osui-floating-offset",
 				"--osui-balloon-background",
 				"--osui-balloon-border-radius",
-				"--osui-balloon-shadow",
-				"--osui-focus-ring-width"
+				"--osui-balloon-shadow"
 			],
-			"markup": "<div><div class=\"osui-overflow-menu\"><button class=\"osui-overflow-menu__trigger btn\" type=\"button\" aria-label=\"More actions\"><i class=\"icon ph \"></i></button><div class=\"osui-overflow-menu__balloon osui-balloon\" id=\"-balloon\"><nav class=\"display-flex flex-direction-column\"><span class=\"text-uppercase text-neutral-7 font-semi-bold padding-x-base padding-top-base font-size-xs margin-bottom-s\" aria-hidden=\"true\"></span></nav></div></div></div>",
+			"markup": "<div class=\"separator separator-horizontal\"></div><a href=\"#\"><span class=\"display-flex align-items-center gap-s\"><i class=\"icon ph \"></i><span></span></span></a>",
 			"usage": {
 				"configs": {
 					"Position": "auto",
@@ -3791,9 +3788,9 @@
 				"ProgressCircleContent": "osui-progress-circle__content"
 			},
 			"cssApi": [
-				"--osui-focus-gap"
+				"--osui-focus-shadow-gap"
 			],
-			"markup": "<div class=\"osui-progress-bar\" role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\"><div class=\"osui-progress-bar__container\"><div class=\"osui-progress-bar__value\"></div></div><div class=\"osui-progress-bar__content\" id=\"-label\"></div></div>",
+			"markup": "<div class=\"osui-progress-circle\" role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\"><div class=\"osui-progress-circle__container\"><div class=\"svg-wrapper\"><svg><defs></defs><circle class=\"osui-progress-circle__container__trail-path\"></circle><circle class=\"osui-progress-circle__container__progress-path\"></circle></svg></div></div><div class=\"osui-progress-circle__content\" id=\"-label\"></div></div>",
 			"usage": {
 				"configs": {
 					"AnimateInitialProgress": false,
@@ -4143,7 +4140,7 @@
 				"--osui-range-slider-disabled-track-color",
 				"--osui-range-slider-disabled-connect-color",
 				"--osui-range-slider-disabled-color",
-				"--osui-focus-gap"
+				"--osui-focus-shadow-gap"
 			],
 			"markup": "<style> .osui-rs-matrix { align-items: center; display: grid; gap: 24px 40px; grid-template-columns: max-content repeat(2, minmax(240px, 1fr)); } .osui-rs-matrix__head { color: var(--color-text-subtle); font-family: monospace; font-size: 0.8125rem; } /* Room for the floating label above and the pips below, which both sit outside the track's own box. */ .osui-rs-cell { padding: 28px 8px 8px; } </style><div class=\"osui-rs-matrix\"><div></div><div class=\"osui-rs-matrix__head\">Default</div><div class=\"osui-rs-matrix__head\">Disabled</div><div class=\"osui-rs-matrix__head\"></div><div class=\"osui-rs-cell\"><div class=\"osui-range-slider\"><div class=\"osui-range-slider__provider\"></div></div></div></div>",
 			"usage": {
@@ -4352,7 +4349,7 @@
 				"--osui-rating-empty-color",
 				"--osui-rating-disabled-color",
 				"--osui-rating-disabled-empty-color",
-				"--osui-focus-gap"
+				"--osui-focus-shadow-gap"
 			],
 			"markup": "<div class=\"icon-states\"><div class=\"rating-item-filled\"><i class=\"icon ph-fill ph-star\"></i></div><div class=\"rating-item-half\"><i class=\"icon ph ph-star-half\"></i></div><div class=\"rating-item-empty\"><i class=\"icon ph ph-star\"></i></div></div>",
 			"usage": {
@@ -4485,7 +4482,7 @@
 			"events": [],
 			"cssClasses": {},
 			"cssApi": [],
-			"markup": "<div class=\"osui-search\"><div class=\"osui-search__input\"><span class=\"input-text\"><input class=\"form-control\" type=\"search\" placeholder=\"Search…\" data-input /></span></div></div>",
+			"markup": "<div class=\"osui-search\"><input class=\"form-control\" type=\"search\" placeholder=\"Search…\" data-input /></div>",
 			"usage": {
 				"configs": {
 					"ExtendedClass": ""
@@ -4638,7 +4635,7 @@
 				"--osui-section-index-active-indicator-width",
 				"--osui-section-index-active-indicator-offset"
 			],
-			"markup": "<div class=\"osui-main-content\"><div><div></div></div></div>",
+			"markup": "<section id=\"\"><h3></h3><p>Content for .</p></section>",
 			"usage": {
 				"configs": {
 					"IsFixed": false,
@@ -4774,7 +4771,7 @@
 				"ItemTarget": "osui-section-index-item__target"
 			},
 			"cssApi": [],
-			"markup": "<div class=\"osui-main-content\"><div><div></div></div></div>",
+			"markup": "<section id=\"\"><h3></h3><p>Content for .</p></section>",
 			"usage": {
 				"configs": {
 					"ScrollToWidgetId": "",
@@ -5400,7 +5397,7 @@
 			],
 			"cssClasses": {},
 			"cssApi": [],
-			"markup": "<div><div><span data-arrow aria-hidden=\"true\">☝</span><strong data-output>Swipe in any direction</strong><span>Touch device or device emulation</span></div><ol data-log aria-live=\"polite\"></ol></div>",
+			"markup": "<div><span data-output>Swipe inside this box (touch device / emulation)</span></div>",
 			"usage": {
 				"configs": {
 					"WidgetId": "",
@@ -6271,7 +6268,7 @@
 				"--osui-timepicker-input-border-radius",
 				"--osui-input-border-radius"
 			],
-			"markup": "<div><div class=\"osui-timepicker\"><label for=\"-input\">Pick a time</label><input id=\"-input\" class=\"form-control\" type=\"text\" placeholder=\"Select a time\" /></div></div>",
+			"markup": "<div class=\"osui-timepicker\"><label for=\"-input\">Pick a time</label><input id=\"-input\" class=\"form-control\" type=\"text\" placeholder=\"Select a time\" /></div>",
 			"usage": {
 				"configs": {
 					"AllowInput": false,
@@ -6625,7 +6622,7 @@
 			],
 			"cssClasses": {},
 			"cssApi": [],
-			"markup": "<div><div><span>Touch and drag inside this box</span></div><dl aria-live=\"polite\"><div><dt></dt><dd data->—</dd></div><div><dt></dt><dd data->—</dd></div><div><dt></dt><dd data->—</dd></div></dl></div>",
+			"markup": "<div><span data-output>Touch &amp; drag inside this box (touch device / emulation)</span></div>",
 			"usage": {
 				"configs": {
 					"WidgetId": "",
@@ -6841,7 +6838,7 @@
 				"VideoTrack": "osui-video-track"
 			},
 			"cssApi": [],
-			"markup": "<div><video class=\"osui-video\"></video><span data-state aria-live=\"polite\">State: Unstarted</span></div>",
+			"markup": "<video class=\"osui-video\"></video>",
 			"usage": {
 				"configs": {
 					"Autoplay": false,
@@ -7175,7 +7172,7 @@
 				"--osui-wizard-connector-size",
 				"--osui-wizard-focus-halo-color",
 				"--osui-wizard-focus-halo-width",
-				"--osui-focus-gap"
+				"--osui-focus-shadow-gap"
 			],
 			"markup": "<div class=\"osui-wizard\"><div class=\"list\"><div id=\"\" data-block=\"WizardItem.WizardItem\"><div name=\"\" class=\"osui-wizard-item\"><div class=\"osui-wizard-item-icon-wrapper\"><div class=\"osui-wizard-item-icon\"></div></div><div class=\"osui-wizard-item-label\"></div></div></div></div></div>",
 			"usage": {
